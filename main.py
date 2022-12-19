@@ -9,8 +9,8 @@ try:
 
     ip_adresses.append(line.split(" ")[0])
     print(line.split(" ")[0])
-    from _collections_abc,
-    print(file(list))
+    #from _collections_abc
+    #print(file(list))
 
 
 except:
