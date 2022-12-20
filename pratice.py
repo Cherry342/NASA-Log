@@ -1,4 +1,4 @@
-# Import things
+
 #import matplotlib.pyplot as plt
 #import numpy as np
 #import matplotlib as mpl
@@ -7,7 +7,7 @@
 #ypoints= list(range(-10,0))
 #plt.plot (xpoints,ypoints)
 #plt.show()
-# Import things
+
 #import numpy as np
 #import matplotlib.pyplot as plt
 
@@ -28,3 +28,13 @@
 #plt.grid(color = 'green', linestyle = '--', linewidth = 0.5)
 
 #plt.show()
+import matplotlib.pyplot as plt
+
+categories= ['goldencheese', 'whitelily', 'purevanilla', 'darkcacao', 'hollyberry']
+numbers= [54, 77, 96, 101, 85]
+plt.bar(categories, numbers, color=['orange', 'green', 'blue', 'purple', 'pink'])
+
+plt.bar(categories, numbers, color=['orange', 'lime', 'aqua', 'blueviolet', 'deeppink'])
+
+
+plt.show()
