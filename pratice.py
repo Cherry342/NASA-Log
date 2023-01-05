@@ -34,7 +34,7 @@ categories= ['goldencheese', 'whitelily', 'purevanilla', 'darkcacao', 'hollyberr
 numbers= [54, 77, 96, 101, 85]
 plt.bar(categories, numbers, color=['orange', 'green', 'blue', 'purple', 'pink'])
 
-plt.bar(categories, numbers, color=['orange', 'lime', 'aqua', 'blueviolet', 'deeppink'])
+plt.bar(categories, numbers, color=['orange', 'lime', 'blue', 'blueviolet', 'deeppink'])
 
 
 plt.show()

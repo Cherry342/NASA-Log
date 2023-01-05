@@ -14,6 +14,9 @@ print(berry_counter)
 print(berry_counter.keys())
 print(berry_counter.values())
 
+
+
 plt.bar(berry_counter.keys(), berry_counter.values())
 plt.show()
-
+names= {1: 'strawberry', 2: 'blueberry', 3: 'blackberry', 4: 'raspberry'}
+print(dict(filter))
